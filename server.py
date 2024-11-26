@@ -81,4 +81,4 @@ def main():
     return 'Your bot is alive!'
 
 def start_server():
-    app.run(host='0.0.0.0', port=5000)
+    app.run(host='0.0.0.0', port=3000)
