@@ -2,6 +2,7 @@
 # Tradingview-Access-Management
 [![CodeFactor](https://www.codefactor.io/repository/github/trendoscope-algorithms/tradingview-access-management/badge)](https://www.codefactor.io/repository/github/trendoscope-algorithms/tradingview-access-management)
 <br>
+Updated secured version of TradingView Access Management with API Key.
 This project provides restful API access to manage tradingview script access management. This is intended to be used by vendors along with appropriate security and other workflow management tools for automation of access management.
 
 <h1>Installation</h1>
@@ -15,6 +16,7 @@ Only environment variables to be updated are:
 <ul>
 <li>username - Your tradingview username</li>
 <li>password - Your tradingview password</li>
+<li>API Key - Your desired API key to auth all GET/POST requests (authentication with X-API-KEY in headers of requests)</li>
 </ul>
 Please note that access management apis will only work if you have Premium Tradingview subscription.
 
