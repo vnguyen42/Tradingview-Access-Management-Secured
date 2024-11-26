@@ -1,5 +1,5 @@
 [![Trendoscope](https://assets.zyrosite.com/YBg17aEx8BCroqG1/logo-no-background-d95yX4Bp8PhPDxZx.svg)](https://www.trendoscope.au)
-# Tradingview-Access-Management
+# Tradingview-Access-Management-Secured
 [![CodeFactor](https://www.codefactor.io/repository/github/trendoscope-algorithms/tradingview-access-management/badge)](https://www.codefactor.io/repository/github/trendoscope-algorithms/tradingview-access-management)
 <br>
 Updated secured version of TradingView Access Management with API Key.
