@@ -14,8 +14,8 @@ https://replit.com/@trendoscope/Tradingview-Access-Management
 <h3>Update Replit environment variables</h3>
 Only environment variables to be updated are:
 <ul>
-<li>username - Your tradingview username</li>
-<li>password - Your tradingview password</li>
+<li>tvusername - Your tradingview username</li>
+<li>tvpassword - Your tradingview password</li>
 <li>API Key - Your desired API key to auth all GET/POST requests (authentication with X-API-KEY in headers of requests)</li>
 </ul>
 Please note that access management apis will only work if you have Premium Tradingview subscription.
