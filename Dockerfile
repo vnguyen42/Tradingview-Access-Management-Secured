@@ -21,3 +21,8 @@ EXPOSE 3000
 
 # Set the default command to run your application
 CMD ["poetry", "run", "python", "main.py"]
+
+# Pass env of coolify
+ARG API_KEY=10f3c175-d949-4827-9f7f-9690b383c379
+ARG tvpassword=@SdfjeXI8362$$
+ARG tvusername=ukomeiz
