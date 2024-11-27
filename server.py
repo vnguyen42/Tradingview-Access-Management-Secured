@@ -5,6 +5,9 @@ import os
 from functools import wraps
 
 app = Flask('')
+# if FLASK_ENV is development, set debug to True
+if os.environ.get('FLASK_DEBUG') == 1:
+    app.config['DEBUG'] = True
 
 def require_api_key(f):
     @wraps(f)
@@ -36,7 +39,7 @@ def validate(username):
         }
     except Exception as e:
         print("[X] Exception Occurred: ", e)
-        failureResponse = {'errorMessage': 'Unknown Exception Occurred'}
+        failureResponse = {'errorMessage': 'Unknown Exception Occurred :' + str(e)}
         return json.dumps(failureResponse), 500, {
             'Content-Type': 'application/json; charset=utf-8'
         }
